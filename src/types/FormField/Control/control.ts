@@ -1,7 +1,7 @@
 import { tv, type VariantProps } from "tailwind-variants";
 
 export const controlVariants = tv({
-  base: "flex items-center gap-2 rounded-lg border transition-all bg-transparent",
+  base: "flex flex-1 items-center gap-2 rounded-lg border transition-all bg-transparent",
   variants: {
     state: {
       default: "border-gray-100 ",
