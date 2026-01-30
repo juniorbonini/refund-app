@@ -12,6 +12,7 @@ import ArrowLeft from "../../assets/icons/caret-left.svg?react";
 // @ts-expect-error: module declaration for SVG React import
 import ArrowRight from "../../assets/icons/caret-right.svg?react";
 import { Label } from "../../components/FormField/Label";
+import { FormFieldControl } from "../../components/FormField/Control";
 
 export function Layout() {
   return (
@@ -26,6 +27,9 @@ export function Layout() {
         <Label tone="error">
            E-mail
         </Label>
+        <FormFieldControl state="default">
+          <input className="flex-1 bg-transparent outline-none" />
+        </FormFieldControl>
       </div>
       <Outlet />
     </div>
