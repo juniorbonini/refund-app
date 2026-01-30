@@ -15,10 +15,9 @@ export default function Header() {
 
       <div className="flex gap-4">
         <Button variant="ghost">
-          <Text className={cx(
-              "truncate",
-              buttonTextVariants({ variant: "ghost" }),
-            )}>
+          <Text
+            className={cx("truncate", buttonTextVariants({ variant: "ghost" }))}
+          >
             Solicitções de reembolso
           </Text>
         </Button>

@@ -28,7 +28,7 @@ export const buttonTextVariants = tv({
   variants: {
     variant: {
       primary: "text-white",
-      ghost: "text-green-200",
+      ghost: "text-green-100",
     },
   },
   defaultVariants: {
